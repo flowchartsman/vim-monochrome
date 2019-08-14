@@ -23,6 +23,7 @@ let s:sblue  = ['#778899', 67]
 let s:yellow = ['Yellow', 226]
 let s:red    = ['#b6403a', 160]
 let s:green  = ['#478226', 28]
+let s:splash = ['#ffaf87', 216]
 
 let s:default_fg = s:lgray
 let s:default_bg = s:black
@@ -106,7 +107,7 @@ call s:hi('Pmenu', s:white, s:sblue)
 call s:hi('PmenuSel', s:sblue, s:white)
 
 " Notes.
-call s:hi('Todo', s:black, s:yellow, s:bold)
+call s:hi('Todo', s:splash, s:default_bg)
 
 " Signs.
 call s:hi('SignColumn')
@@ -264,3 +265,14 @@ call s:hi('ALEWarningSign', s:sblue)
 "call s:hi('ALEInfo', s:default_fg, s:default_bg, s:bold)
 call s:hi('ALEInfoSign', s:default_fg, s:default_bg, s:bold)
 "call s:hi('ALEInfoLine', s:default_fg, s:default_bg, s:bold)
+
+"
+" --- quickfix -----------------------------------------------------------------
+"
+call s:hi('qfError', s:yellow)
+
+"
+" --- go -----------------------------------------------------------------------
+"
+call s:hi('goFormatSpecifier', s:splash)
+call s:hi('goTodo', s:splash, s:default_bg)
