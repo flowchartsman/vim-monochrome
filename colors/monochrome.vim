@@ -255,12 +255,12 @@ call s:hi('NeomakeWarning', s:yellow)
 "
 " --- Ale ----------------------------------------------------------------------
 "
-call s:hi('ALEError', s:yellow)
+"call s:hi('ALEError', s:yellow)
 call s:hi('ALEErrorSign', s:yellow)
-call s:hi('ALEErrorLine', s:yellow)
-call s:hi('ALEWarning', s:sblue)
+"call s:hi('ALEErrorLine', s:yellow)
+"call s:hi('ALEWarning', s:sblue)
 call s:hi('ALEWarningSign', s:sblue)
-call s:hi('ALEWarningLine', s:sblue)
-call s:hi('ALEInfo', s:default_fg, s:default_bg, s:bold)
+"call s:hi('ALEWarningLine', s:sblue)
+"call s:hi('ALEInfo', s:default_fg, s:default_bg, s:bold)
 call s:hi('ALEInfoSign', s:default_fg, s:default_bg, s:bold)
-call s:hi('ALEInfoLine', s:default_fg, s:default_bg, s:bold)
+"call s:hi('ALEInfoLine', s:default_fg, s:default_bg, s:bold)
